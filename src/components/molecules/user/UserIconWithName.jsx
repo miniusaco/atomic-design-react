@@ -15,6 +15,7 @@ const SContainer = styled.div`
 `;
 const SImg = styled.img`
   border-radius: 50%;
+  object-fit: cover;
 `;
 const SName = styled.p`
   font-size: 18px;
