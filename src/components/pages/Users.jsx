@@ -22,7 +22,7 @@ export const Users = () => {
       <h2>ユーザー一覧</h2>
       <SearchInput />
       <SUserArea>
-        {users.map(() => (
+        {users.map((user) => (
           <UserCard key={users.id} user={user} />
         ))}
       </SUserArea>
