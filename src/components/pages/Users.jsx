@@ -31,7 +31,7 @@ export const Users = () => {
 };
 
 const SContainer = styled.div`
-  display: flex;
+  display: inline;
   flex-direction: colomn;
   align-items: center;
   padding: 24px;
@@ -40,7 +40,7 @@ const SContainer = styled.div`
 const SUserArea = styled.div`
   padding-top: 40px;
   width: 100%;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 `;
