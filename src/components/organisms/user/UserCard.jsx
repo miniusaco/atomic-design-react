@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Card } from "../../atoms/card/Card";
+import React, { memo } from "react";
 import { UserIconWithName } from "../../molecules/user/UserIconWithName";
 
 export const UserCard = memo((props) => {

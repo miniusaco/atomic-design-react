@@ -1,7 +1,7 @@
-import React from "react";
 import { Input } from "../atoms/input/Input";
 import { PrimaryButton } from "../atoms/button/PrimaryButton";
 import styled from "styled-components";
+import { memo } from "react";
 
 export const SearchInput = memo(() => {
   console.log("SearchInput");
@@ -18,6 +18,7 @@ export const SearchInput = memo(() => {
 const SContainer = styled.div`
   display: flex;
   align-items: center;
+  width: 270px;
 `;
 
 const SButtonWrapper = styled.div`
